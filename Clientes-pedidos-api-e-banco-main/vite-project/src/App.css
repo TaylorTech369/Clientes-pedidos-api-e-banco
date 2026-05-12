@@ -1,0 +1,86 @@
+/* Reset básico */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* aliceblue */
+    color: #333;
+}
+
+/* Header estilizado */
+.header {
+    background-color: #7fffd4; /* aquamarine */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+/* Container do formulário */
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+/* Card central */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Inputs */
+.input-field {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #7fffd4;
+}
+
+/* Botão */
+.submit-button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.submit-button:hover {
+    background-color: #3e5871;
+}
+
+.submit-button:active {
+    transform: scale(0.98);
+}
